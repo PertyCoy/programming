@@ -1,3 +1,13 @@
+'''
+get file name in the path list
+Foundation Class Library
+
+
+
+
+'''
+
+
 import os
 
 eg_path = ['D:/sample/sample.ma']
