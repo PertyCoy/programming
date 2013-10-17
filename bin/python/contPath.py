@@ -6,8 +6,6 @@ Foundation Class Library
 
 
 '''
-
-
 import os
 
 eg_path = ['D:/sample/sample.ma']
