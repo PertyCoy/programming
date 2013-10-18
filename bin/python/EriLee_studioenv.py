@@ -1,18 +1,18 @@
-#-----------------------------------------------------------------
-######  Copyright 2013 FrameSoul. All rights reserved.
-######  SCRIPT:EriLee_studioenv.py
-######  AUTHOR:EriLee(td.EriLee@gmail.com)
-######  DATE:January 31, 2013
-######  VERSION:2013.1
-#-----------------------------------------------------------------
 """
+ *  studioenv.cpp
+ *  studioenv
+ *
+ *  Created by EriLee on 10/18/13.
+ *  Copyright 2013 __MyCompanyName__. All rights reserved.
+ *
+ 
 Studio Environment module for setting up the studio environment
 
 This is a very basic module that will just ensure that the studio package
 is added to the PYTHONPATH so that other scripts or an interactive python
 session can easily access the studio code.
 """
-__version__ = "studioenv,v 1.0 2013/01/31 11:00:32"
+__version__ = "studioenv,Created on 10/18/13"
 __author__ = "EriLee"
 __source__ = "//EriLee/FrameSoul_Programming/bin"
 
@@ -22,7 +22,7 @@ import maya.mel as mel
 
 class studioenv():
     currFile_Path=os.path.abspath(os.path.dirname(__file__))
-    systemName='FramesoulStudio'
+    systemName='MyStudio'
 
     def getEnv(self):
         self.mayaVer = cmds.about(v=1).split()[0]
