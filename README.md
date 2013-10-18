@@ -1,4 +1,2 @@
-programming
+A few minimal test programs from my study.
 ===========
-
-this is a pipeline software
