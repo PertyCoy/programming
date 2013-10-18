@@ -22,8 +22,8 @@ shared_refNode = cmds.createNode('reference')
 cmds.connectAttr (shared_refNode + ".sharedReference",selObj[0]+ ".sharedReference" )
 cmds.connectAttr (shared_refNode + ".sharedReference",selObj[1]+ ".sharedReference" )
 
+#### refresh Ref nodes.
 mel.eval("sceneEditor -edit -rr $gReferenceEditorPanel;")
-
 cmds.file(ur=selObj[0])
 mel.eval("proxySwitch(\""+selObj[1]+"\")")
 
