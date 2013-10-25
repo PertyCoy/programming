@@ -1,3 +1,7 @@
+'''
+sample
+'''
+
 import maya.cmds as cmds
 import pymel as pm
 
@@ -21,9 +25,7 @@ class clean_scene(object):
                 deleteList.append(refNode)
                 cmds.lockNode(refNode,lock=False)
                 cmds.delete(refNode)
-         return deleteList
-
-
+        return deleteList
 if __name__ == '__main__':
     cs = clean_scene()
     cs.del_unknown_RefNode()

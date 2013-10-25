@@ -1,5 +1,6 @@
 from shotgun_api3 import Shotgun
-
+'''
+#sample
 help(sg)
 Help on Shotgun in module shotgun_api3.shotgun object:
 
@@ -408,3 +409,4 @@ class Shotgun(__builtin__.object)
  |  
  |  server_info
  |      Returns server information.
+ '''
