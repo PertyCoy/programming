@@ -11,11 +11,10 @@ def deleteNS():
 
 def helloWorld():
 	print 'HelloWorld'
-
+'''
 def cc():
 	print 'cc'
-
-
+'''
 if __name__ == '__main__':
 	deleteNS()
 	helloWorld()
