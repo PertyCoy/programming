@@ -10,5 +10,6 @@ def deleteNS():
     cmds.namespace(rm=NS)
 
 
-
+def cc():
+	print 'cc'
 
