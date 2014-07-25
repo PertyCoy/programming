@@ -9,3 +9,7 @@ def deleteNS():
     cmds.namespace(mv=[NS,':'],f=True)
     cmds.namespace(rm=NS)
 
+
+ if __name__ == '__main__':
+ 	deleteNS()
+
