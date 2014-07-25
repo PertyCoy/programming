@@ -13,6 +13,11 @@ def helloWorld():
 	print 'HelloWorld'
 
 
+def aa():
+	test_list = ['aa_1','aa_2','aa_3']
+	for key in test_list:
+		print key
+
 if __name__ == '__main__':
 	deleteNS()
 	helloWorld()
