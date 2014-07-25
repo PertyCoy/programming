@@ -27,3 +27,7 @@ def aa():
 if __name__ == '__main__':
 	deleteNS()
 	helloWorld()
+
+
+
+	kokkokokokk
