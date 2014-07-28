@@ -23,6 +23,7 @@ def aa():
 	for key in test_list:
 		print key
 
+<<<<<<< HEAD
 >>>>>>> test
 if __name__ == '__main__':
 	deleteNS()
