@@ -30,3 +30,7 @@ def deleteNS():
 
 if __name__ == __main__:
 	deleteNS()
+
+
+
+Copyright.....
