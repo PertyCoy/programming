@@ -23,3 +23,6 @@ class contPath():
 if __name__ == '__main__':
     cp = contPath()
     print cp.getfileName(eg_path)
+
+
+Getfile
