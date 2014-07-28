@@ -1,3 +1,19 @@
+#-----------------------------------------------------------------
+######  Copyright 2013 FrameSoul. All rights reserved.
+######  SCRIPT:EriLee_studioenv.py
+######  AUTHOR:EriLee(td.EriLee@gmail.com)
+######  DATE:January 31, 2013
+######  VERSION:2013.1
+#-----------------------------------------------------------------
+"""
+Studio Environment module for setting up the studio environment
+
+This is a very basic module that will just ensure that the studio package
+is added to the PYTHONPATH so that other scripts or an interactive python
+session can easily access the studio code.
+"""
+
+
 import maya.cmds as cmds
 
 
@@ -9,21 +25,13 @@ def deleteNS():
     cmds.namespace(mv=[NS,':'],f=True)
     cmds.namespace(rm=NS)
 
-def helloWorld():
-	print 'HelloWorld'
-'''
-def cc():
-	print 'cc'
-'''
-=======
-
-
 def aa():
 	test_list = ['aa_1','aa_2','aa_3']
 	for key in test_list:
 		print key
 
->>>>>>> test
 if __name__ == '__main__':
 	deleteNS()
-	helloWorld()
+
+#####helloWorld
+You are Brach Render
